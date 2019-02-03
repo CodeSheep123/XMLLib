@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+  <note>
+  <to>Tove</to>
+  <from>Jani</from>
+  <heading>Reminder</heading>
+  <body>Don't forget me this weekend!</body>
+</note>
+
+<!-- Desired syntax for using this xml file -->
+<!-- xml["note"]["to"].data == "Tove" (String)  -->
+<!-- xml["note"].data == (Nested xml) -->
+<!-- Type: xml_element (Active: Array<xml_element>)-->
